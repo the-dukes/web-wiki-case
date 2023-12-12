@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-4a0fcb36","path":"/docs/web-03-JavaScript/shili-Case/","title":"JavaScript","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1702362945000,"updatedTime":1702362945000,"contributors":[{"name":"dupan","email":"dupan@zzltop.com","commits":1}]},"filePathRelative":"docs/web-03-JavaScript/示例-Case/README.md"}');export{a as data};
