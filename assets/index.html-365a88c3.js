@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2059d108","path":"/docs/web-10-keshihua/03-threejs/","title":"03-threejs","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/web-10-可视化/03-threejs/README.md"}');export{e as data};

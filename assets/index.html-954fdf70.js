@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-92d8d06e","path":"/docs/web-10-keshihua/04-webGL/","title":"04-webGL","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/web-10-可视化/04-webGL/README.md"}');export{e as data};
