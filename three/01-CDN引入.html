@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CDN引入</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script type="module">
+      import * as THREE from 'three';
+
+      //场景
+      const scene = new THREE.Scene();
+      //相机
+      //perspective透视的，PerspectiveCamera透视摄像机
+      //75：场景范围，角度
+      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+      //渲染器
+      const renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      //将renderer渲染器的dom元素（renderer.domElement）HTML中
+      //这就是渲染器用来显示场景给我们看的<canvas>元素
+      document.body.appendChild(renderer.domElement);
+
+      //立方体对象
+      const geometry = new THREE.BoxGeometry(1, 1, 1);
+      //材质
+      const material = new THREE.MeshBasicMaterial({color: 0x00ff00});
+      //放入网格
+      const cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
+      camera.position.z = 5;
+
+      function animate() {
+        requestAnimationFrame(animate);
+        //运动
+        cube.rotation.x += 0.18;
+        cube.rotation.y += 0.18;
+        renderer.render(scene, camera);
+      }
+
+      animate();
+    </script>
+  </body>
+</html>

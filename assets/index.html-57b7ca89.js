@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-56db1d46","path":"/docs/code-03-JavaScript/","title":"代码片段","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1703150816000,"updatedTime":1703150816000,"contributors":[{"name":"dupan","email":"dupan@zzltop.com","commits":1}]},"filePathRelative":"docs/code-03-JavaScript/README.md"}');export{e as data};

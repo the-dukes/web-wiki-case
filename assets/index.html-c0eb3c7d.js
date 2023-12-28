@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2ee91966","path":"/docs/code-04-Vue/","title":"代码片段","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1703150816000,"updatedTime":1703150816000,"contributors":[{"name":"dupan","email":"dupan@zzltop.com","commits":1}]},"filePathRelative":"docs/code-04-Vue/README.md"}');export{e as data};

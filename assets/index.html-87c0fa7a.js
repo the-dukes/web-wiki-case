@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-87d7e268","path":"/docs/web-01-Html/","title":"Html","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"手册","slug":"手册","link":"#手册","children":[]}],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"docs/web-01-Html/README.md"}');export{e as data};

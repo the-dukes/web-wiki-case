@@ -1,0 +1,5 @@
+import{_ as n,o as s,c as a,a as e}from"./app-bb81f29b.js";const i={},c=e(`<h1 id="_09-兼容性" tabindex="-1"><a class="header-anchor" href="#_09-兼容性" aria-hidden="true">#</a> 09-兼容性</h1><h2 id="解决-ios-滚动条卡顿" tabindex="-1"><a class="header-anchor" href="#解决-ios-滚动条卡顿" aria-hidden="true">#</a> 解决 IOS 滚动条卡顿</h2><p>在 IOS 机器上，经常遇到元素滚动时卡顿的情况，只需要一行 css 即可让其支持弹性滚动</p><div class="language-css line-numbers-mode" data-ext="css"><pre class="language-css"><code><span class="token selector">body,
+html</span> <span class="token punctuation">{</span>
+  <span class="token property">-webkit-overflow-scrolling</span><span class="token punctuation">:</span> touch<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4),t=[c];function o(r,l){return s(),a("div",null,t)}const p=n(i,[["render",o],["__file","09-jianrongxing.html.vue"]]);export{p as default};
